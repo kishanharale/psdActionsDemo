@@ -12,3 +12,11 @@ jobs:
 
       - name: List all files
         run: ls -l
+
+      - name: printing the secrets
+        run: |
+            echo "${{ secrets.SECRET_KEYS }}"
+            
+
+    
+        
