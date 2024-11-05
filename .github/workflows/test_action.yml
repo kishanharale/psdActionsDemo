@@ -16,6 +16,7 @@ jobs:
       - name: printing the secrets
         run: |
             echo "${{ secrets.SECRET_KEYS }}"
+            echo "${{ secrets.SECRET_VARIABLE }}"
             
 
     
