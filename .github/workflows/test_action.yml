@@ -1,5 +1,5 @@
-name: Test on Pull
-run-name: Testing Git Action for git pull
+name: Test on Push
+run-name: Testing Git Action for git push
 
 on: [push]
 
